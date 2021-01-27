@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2477330c-2cba-45db-9d89-2beeb46a41c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1napt7m6PH2cRJVr7rNRORLNmnD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2477330c-2cba-45db-9d89-2beeb46a41c5" name="Default Changelist" comment="" />
+      <created>1611638268240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611638268240</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1039" y="325" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611638454399">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1039" y="325" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1415/2560.25.3008.1667@0.25.2560.1415" timestamp="1611638454399" />
+    <state x="975" y="266" width="1200" height="800" key="AVDManager" timestamp="1611638985615">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="975" y="266" width="1200" height="800" key="AVDManager/0.25.2560.1415/2560.25.3008.1667@0.25.2560.1415" timestamp="1611638985615" />
+    <state x="1370" y="416" key="AndroidProcessChooserDialog" timestamp="1611638362106">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1370" y="416" key="AndroidProcessChooserDialog/0.25.2560.1415/2560.25.3008.1667@0.25.2560.1415" timestamp="1611638362106" />
+    <state x="1076" y="302" key="SettingsEditor" timestamp="1611638606490">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1076" y="302" key="SettingsEditor/0.25.2560.1415/2560.25.3008.1667@0.25.2560.1415" timestamp="1611638606490" />
+    <state x="1358" y="584" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611638740833">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1358" y="584" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.2560.1415/2560.25.3008.1667@0.25.2560.1415" timestamp="1611638740833" />
+  </component>
+</project>
