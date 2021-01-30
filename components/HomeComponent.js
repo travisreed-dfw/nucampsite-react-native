@@ -6,6 +6,7 @@ import { PROMOTIONS } from "../shared/promotions";
 import { PARTNERS } from "../shared/partners";
 
 function RenderItem({ item }) {
+    console.log({ item });
     if (item) {
         return (
             <Card
