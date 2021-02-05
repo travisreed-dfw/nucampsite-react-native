@@ -32,27 +32,6 @@ const mapDispatchToProps = {
     fetchPartners,
 };
 
-const CustomDrawerContentComponent = (props) => (
-    <ScrollView>
-        <SafeAreaView
-            style={styles.container}
-            forceInset={{ top: "always", horizontal: "never" }}>
-            <View style={styles.drawerHeader}>
-                <View style={{ flex: 1 }}>
-                    <Image
-                        source={require("./images/logo.png")}
-                        style={styles.drawerImage}
-                    />
-                </View>
-                <View style={{ flex: 2 }}>
-                    <Text style={styles.drawerHeaderText}>NuCamp</Text>
-                </View>
-            </View>
-            <DrawerItems {...props} />
-        </SafeAreaView>
-    </ScrollView>
-);
-
 const DirectoryNavigator = createStackNavigator({
     Directory: {
         screen: Directory,
@@ -72,6 +51,18 @@ const DirectoryNavigator = createStackNavigator({
                     onPress={() => navigation.toggleDrawer()}
                 />
             ),
+        }),
+    },
+    CampsiteInfo: {
+        screen: CampsiteInfo,
+        navigationOptions: () => ({
+            headerStyle: {
+                backgroundColor: "#5637DD",
+            },
+            headerTintColor: "#fff",
+            headerTitleStyle: {
+                color: "#fff",
+            },
         }),
     },
 });
@@ -149,6 +140,27 @@ const ContactNavigator = createStackNavigator(
             ),
         }),
     }
+);
+
+const CustomDrawerContentComponent = (props) => (
+    <ScrollView>
+        <SafeAreaView
+            style={styles.container}
+            forceInset={{ top: "always", horizontal: "never" }}>
+            <View style={styles.drawerHeader}>
+                <View style={{ flex: 1 }}>
+                    <Image
+                        source={require("./images/logo.png")}
+                        style={styles.drawerImage}
+                    />
+                </View>
+                <View style={{ flex: 2 }}>
+                    <Text style={styles.drawerHeaderText}>NuCamp</Text>
+                </View>
+            </View>
+            <DrawerItems {...props} />
+        </SafeAreaView>
+    </ScrollView>
 );
 
 const MainNavigator = createDrawerNavigator(
