@@ -12,6 +12,11 @@ export const addFavorite = (campsiteId) => ({
     payload: campsiteId,
 });
 
+export const deleteFavorite = (campsiteId) => ({
+    type: ActionTypes.DELETE_FAVORITE,
+    payload: campsiteId,
+});
+
 export const fetchComments = () => (dispatch) => {
     return fetch(baseUrl + "comments")
         .then(
