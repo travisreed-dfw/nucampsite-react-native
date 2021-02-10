@@ -172,8 +172,7 @@ export const addComment = (newComment) => ({
 });
 
 export const postComment = (campsiteId, rating, author, text) => (dispatch) => {
-    const d = new Date();
-    const date = d.toISOString();
+    const date = new Date().toISOString();
     const newComment = {
         campsiteId,
         rating,

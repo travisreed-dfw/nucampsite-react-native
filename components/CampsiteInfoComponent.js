@@ -70,7 +70,7 @@ function RenderComments({ comments }) {
             <View style={{ margin: 10 }}>
                 <Text style={{ fontSize: 14 }}>{item.text}</Text>
                 <Rating
-                    readOnly
+                    readonly
                     type='star'
                     imageSize={10}
                     startingValue={item.rating}
