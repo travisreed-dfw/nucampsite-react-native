@@ -60,12 +60,6 @@ class Favorites extends Component {
                             }>
                             <Text style={styles.deleteText}>Delete</Text>
                         </TouchableOpacity>
-
-                        {/* <TouchableOpacity
-                            style={styles.deleteTouchable}
-                            onPress={() => this.props.deleteFavorite(item.id)}>
-                            <Text style={styles.deleteText}>Delete</Text>
-                        </TouchableOpacity> */}
                     </View>
 
                     <View>
