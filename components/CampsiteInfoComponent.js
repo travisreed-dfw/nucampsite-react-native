@@ -25,19 +25,6 @@ const mapStateToProps = (state) => {
     };
 };
 
-const shareCampsite = (title, message, url) => {
-    Share.share(
-        {
-            title: title,
-            message: `${title}: ${message} ${url}`,
-            url: url,
-        },
-        {
-            dialogTitle: "Share " + title,
-        }
-    );
-};
-
 const mapDispatchToProps = {
     postFavorite: (campsiteId) => postFavorite(campsiteId),
     postComment: (campsiteId, rating, author, text) =>
@@ -91,6 +78,19 @@ function RenderCampsite(props) {
             return true;
         },
     });
+
+    const shareCampsite = (title, message, url) => {
+        Share.share(
+            {
+                title: title,
+                message: `${title}: ${message} ${url}`,
+                url: url,
+            },
+            {
+                dialogTitle: "Share " + title,
+            }
+        );
+    };
 
     if (campsite) {
         return (
